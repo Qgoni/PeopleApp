@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace PeopleApp
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+    public class Human1 : People
+    { 
 
-        }
     }
 }
