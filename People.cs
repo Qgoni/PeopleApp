@@ -27,14 +27,14 @@ namespace PeopleApp
             }     
         }
 
-        public virtual void Name(string name)
+        public void Name()
         {
            Console.WriteLine(name);
         }
 
-        public virtual void Age(int age)
+        public void Age()
         {
-            Console.WriteLine(age);
+            Console.WriteLine($"{age} лет");
         }
     }
 }
